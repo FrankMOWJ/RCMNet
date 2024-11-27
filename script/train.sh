@@ -1,0 +1,10 @@
+python train.py \
+    --backbone_size base \
+    --confidence_head segformer \
+    --crop_size 532 \
+    --batch_size 8 \
+    --epoch 100 \
+    --init_lr 0.001 \
+    --save_dir ./log \
+    --seed 3407 \
+    --device cuda:0 \
