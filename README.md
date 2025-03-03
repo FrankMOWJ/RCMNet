@@ -4,24 +4,6 @@
 
 Make sure that you have downloaded `PyTorch` and `MMsegmentation`.
 
-## Prepare dataset
-Send email to mengyaxu@cuhk.edu.hk to request to download our **ESTM** dataset from [here](https://drive.google.com/file/d/1RQf1q1c0dXzSFP_XO8Al3JTWsxsD1F95/view?usp=drive_link) and unzip it under the root directory of the project by
-
-```shell
-unzip ESTM.zip -d dataset
-```
-
-After unzipping, the folder structure should be as follows.
-
-```tree
-.
-├── arch
-├── dataset
-├── log
-├── utils
-└── ...
-```
-
 ## How to train
 
 if you want to train the model, use the following command.
